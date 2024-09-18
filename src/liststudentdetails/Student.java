@@ -11,7 +11,15 @@ package liststudentdetails;
 public class Student {
     private String name;
     private int sid;
+    private float fee;
 
+    public float getFee() {
+        return fee;
+    }
+
+    public void setFee(float fee) {
+        this.fee = fee;
+    }
     public void setName(String name) {
         this.name = name;
     }
